@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="799.0" style="-fx-background-color: #afeeee;" stylesheets="@../sample/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main_Controller">
+    <children>
+        <Label layoutX="287.0" layoutY="126.0" prefHeight="27.0" prefWidth="294.0" text="Enterprise Invoice Application" textFill="#1c45db">
+            <font>
+                <Font name="Comic Sans MS Bold" size="19.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="119.0" fitWidth="160.0" layoutX="356.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/icon1.PNG" />
+            </image>
+        </ImageView>
+        <Button fx:id="signUP" alignment="CENTER" layoutX="475.0" layoutY="456.0" mnemonicParsing="false" onAction="#signUP" prefHeight="32.0" prefWidth="139.0" style="-fx-background-color: #483D8B;" styleClass="btnSignUp" text="Sign UP" textAlignment="CENTER" textFill="#dedbeb">
+            <font>
+                <Font name="Comic Sans MS Bold" size="15.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtUsername" layoutX="269.0" layoutY="199.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="345.0" promptText="E-mail or Username" style="-fx-background-color: #483D8B;" styleClass="sidebar">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="txtPassword" layoutX="269.0" layoutY="277.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: #483D8B;" styleClass="sidebar">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </PasswordField>
+        <ImageView fitHeight="53.0" fitWidth="69.0" layoutX="193.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/contact.PNG" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="198.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/lock.PNG" />
+            </image>
+        </ImageView>
+        <Button fx:id="btnLogin" layoutX="269.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#btnLogin" prefHeight="43.0" prefWidth="139.0" style="-fx-background-color: #483D8B;" styleClass="btnLogin" text="Login" textAlignment="CENTER" textFill="#dedbeb">
+            <font>
+                <Font name="Comic Sans MS Bold" size="14.0" />
+            </font>
+        </Button>
+      <Separator layoutX="187.0" layoutY="418.0" prefHeight="18.0" prefWidth="428.0" />
+      <Separator layoutX="187.0" layoutY="515.0" prefHeight="18.0" prefWidth="428.0" />
+      <Label fx:id="lblErrors" layoutX="111.0" layoutY="321.0" prefHeight="43.0" prefWidth="645.0" textFill="#ee0606">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="195.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/signup.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnERP" layoutX="475.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnERP" onMouseClicked="#btnLogin" prefHeight="43.0" prefWidth="139.0" style="-fx-background-color: #483D8B;" styleClass="btnERP" text="ERP" textAlignment="CENTER" textFill="#dedbeb">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" layoutX="722.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnExit" prefHeight="63.0" prefWidth="53.0" styleClass="btnIesire" stylesheets="@imagini.css" />
+      <Button fx:id="btnDelete" layoutX="269.0" layoutY="456.0" mnemonicParsing="false" onAction="#btnDelete" prefHeight="32.0" prefWidth="139.0" style="-fx-background-color: #483D8B;" styleClass="btnDeleteA" text="DELETE Form" textAlignment="CENTER" textFill="#dedbeb">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="195.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/signup.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

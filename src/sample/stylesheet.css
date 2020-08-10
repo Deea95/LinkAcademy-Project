@@ -1,0 +1,211 @@
+.parent {
+-fx-background-color: white;
+}
+.sidebar {
+-fx-background-color: #5ebbf4;
+}
+
+.forgetBtn {
+-fx-text-fill: #1c45db;
+}
+
+.forgetBtn:hover {
+-fx-text-fill: #1c45db;
+-fx-underline: true;
+}
+
+.btnLogin {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnLogin:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnSignUp {
+-fx-background-color: #5ebbf4;
+-fx-background-radius: 10px;
+-fx-text-fill: #FFF;
+
+}
+
+.btnSignUp:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnERP {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnEPR:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnBackLoginU {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnBackLoginU:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnCancel {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnCancel:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnRegister {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnRegister:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnBack {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnBack:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnBackLoginD {
+-fx-background-color: #5ebbf4;
+-fx-text-fill: #FFF;
+-fx-background-radius: 10px;
+}
+
+.btnBackLoginD:hover {
+-fx-background-color: transparent;
+-fx-background-radius: 10px;
+-fx-text-fill: #5ebbf4;
+-fx-border-color: #5ebbf4;
+-fx-border-vidth: 1px;
+-fx-border-style: solid;
+-fx-border-radius: 10px;
+}
+
+.btnCancelU {
+ -fx-background-color: #5ebbf4;
+ -fx-text-fill: #FFF;
+ -fx-background-radius: 10px;
+ }
+
+ .btnCancelU:hover {
+ -fx-background-color: transparent;
+ -fx-background-radius: 10px;
+ -fx-text-fill: #5ebbf4;
+ -fx-border-color: #5ebbf4;
+ -fx-border-vidth: 1px;
+ -fx-border-style: solid;
+ -fx-border-radius: 10px;
+ }
+
+.btnCancelD {
+ -fx-background-color: #5ebbf4;
+ -fx-text-fill: #FFF;
+ -fx-background-radius: 10px;
+ }
+
+.btnCancelD:hover {
+ -fx-background-color: transparent;
+ -fx-background-radius: 10px;
+ -fx-text-fill: #5ebbf4;
+ -fx-border-color: #5ebbf4;
+ -fx-border-vidth: 1px;
+ -fx-border-style: solid;
+ -fx-border-radius: 10px;
+ }
+
+.btnDeleteA {
+  -fx-background-color: #5ebbf4;
+  -fx-text-fill: #FFF;
+  -fx-background-radius: 10px;
+  }
+
+.btnDeleteA:hover {
+  -fx-background-color: transparent;
+  -fx-background-radius: 10px;
+  -fx-text-fill: #5ebbf4;
+  -fx-border-color: #5ebbf4;
+  -fx-border-vidth: 1px;
+  -fx-border-style: solid;
+  -fx-border-radius: 10px;
+  }
+
+.btnUpdateU {
+    -fx-background-color: #5ebbf4;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 10px;
+    }
+
+.btnUpdateU:hover {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #5ebbf4;
+    -fx-border-color: #5ebbf4;
+    -fx-border-vidth: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 10px;
+    }
+
+
+
